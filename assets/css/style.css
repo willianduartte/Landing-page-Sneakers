@@ -1,0 +1,237 @@
+* {
+    font-family: fantasy,arial;
+}
+header {
+    background-color: #f90000;
+}
+.quadrado {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    width: 80px;
+    height:80px;
+}
+.logo_line {
+    display: flex;
+}
+.logo_name {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 1px;
+    font-family: fantasy;
+}
+.logo_name a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    width: 700px;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+nav .active a,
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+nav .procurar {
+    margin-left: 50px;
+    font-family: arial;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 40px;
+}
+.banner {
+    background-image: url(../images/Img_principal.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+.banner_desc {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    height: 550px;
+}
+.banner_desc h1 {
+    font-size: 60px;
+    color: #ddd;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    font-family: arial;
+}
+.banner_desc h2 {
+    font-size: 21px;
+    color: #ddd;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 30px;
+    font-family: arial;
+}
+.banner_desc a {
+    font-size: 21px;
+    color: #000;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    margin-top: 30px;
+    font-family: arial;
+    text-decoration: none;
+    background-color: #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.banner_desc a:hover {
+    color: #ddd;
+    background-color: #000;
+}
+.banner_desc s {
+    color: gray;
+    font-family: arial;
+}
+.banner_desc .desconto {
+    font-family: arial;
+    font-size: 21px;
+}
+.produtos img {
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+}
+.produtos img:hover {
+    border: 2px solid #000;
+}
+.produtos_title {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.produtos {
+    width: 250px;
+    border-bottom: 2px solid #000;
+    text-decoration: none;
+}
+.produtos_desc {
+    font-size: 20px;
+    color: #000;
+}
+.produtos_desc2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: gray;
+}
+.frete,
+.preco {
+    color: #000;
+    font-size: 20px;
+}
+.preco s {
+    color: gray
+}
+.precos {
+    display: flex;
+    justify-content: space-between;
+}
+.desconto {
+    color: #f00;
+    font-size: 20px;
+}
+fieldset {
+    width: 150px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+.info {
+    background-color: #363738;
+    margin-top: 20px;
+}
+footer .container2 {
+    display:flex;
+    justify-content: flex-start;
+    width: 1100px;
+}
+footer .quadrado2 {
+    display:flex;
+    justify-content: center;
+}
+footer .produtos {
+    margin-right: 100px;
+    border: 0px;
+}
+footer .produtos_title strong {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: arial;
+    color: #c8cbcc;
+}
+footer .produto {
+    margin-top: 10px;
+}
+footer .produto a {
+    font-size: 12px;
+    color: #c8cbcc;
+    font-family: Arial;
+    text-decoration: none;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+footer .produto a:hover {
+    text-decoration: underline;
+}
+.copy {
+    width: 1100px;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #000;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #c8cbcc;
+    font-family: arial;
+}
+.copy a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: red;
+    font-family: arial;
+}
+.copy a:hover {
+    text-decoration: underline;
+}
